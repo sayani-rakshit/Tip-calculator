@@ -1,0 +1,122 @@
+.heading{
+    height: 50px;
+    width: 250px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    position: relative;
+    left: 25%;
+    
+}
+.calculator_box{
+    border:2px solid rgb(31, 31, 75);
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top:30%;
+    left:30%;
+    background-color: rgb(31, 31, 75);
+    
+    
+}
+.container{
+    position: relative;
+    left:15%;
+    height: 420px;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+}
+.amount{
+    position: relative;
+    left:10%;
+    top:5%;
+}
+
+#billamount{
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    border-bottom:2px solid skyblue;
+    width: 200px;
+    height: 25px;
+    
+    
+}
+.service_box{
+    position: relative;
+    left:10%;
+    top:5%;
+}
+
+#service{
+    height:25px;
+    width: 200px;
+    border-bottom: 2px solid skyblue;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+   
+}
+#optionbtn{
+background-color:white;
+  
+}
+
+#numberofperson{
+    height: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    border-bottom: 2px solid skyblue;
+   
+}
+#calculate{
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
+}
+
+#totalbill{
+    position: relative;
+    /* left:25%; */
+    border: 2px solid rgb(117, 92, 92);
+    height: 18px;
+    width: 250px;
+    margin-bottom: 10px;
+    
+    /* text-align: center; */
+}
+#totalbill p{
+    position: relative;
+    top:-65%;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+
+#tip{
+    position: relative;
+    /* left:25%; */
+    border: 2px solid rgb(110, 86, 86);
+    height: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#tip p{
+    position: relative;
+    top:-65%;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
